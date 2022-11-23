@@ -1,0 +1,23 @@
+{
+  "name": "advent-of-solidjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmammino/advent-of-solidjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lmammino/advent-of-solidjs/issues"
+  },
+  "homepage": "https://github.com/lmammino/advent-of-solidjs#readme",
+  "workspaces": [
+    "y2022/day0"
+  ]
+}
