@@ -65,7 +65,7 @@ export default function TicTacToe (): JSX.Element {
       </For>
     </div>
     <div class={styles.gameInfo}>
-      <Show when={isComplete()} fallback={<div>Current player: {currentPlayer()}</div>}>
+      <Show when={canRestart()} fallback={<div>Current player: {currentPlayer()}</div>}>
         <Show when={winner()} fallback={<div>DRAW</div>}>
           <div>Winner: {winner()}</div>
         </Show>
