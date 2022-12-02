@@ -9,11 +9,18 @@ Doing this as a challenge to practice Solid.js more.
 
 Solutions are organised per year/day.
 
-Every solution is a standalone project so you need to run:
+Every solution is a standalone project, so you need to run:
 
 ```bash
 npm install
 npm run dev
+```
+
+If you prefer yarn run:
+
+```bash
+yarn
+yarn dev
 ```
 
 To start the project in dev mode.
