@@ -1,0 +1,50 @@
+:root {
+  --green-color: rgb(13, 235, 135);
+  --light-green-color: rgb(150, 244, 213);
+  --red-color: rgb(245, 86, 86);
+  --content-width: 15rem;
+  --base-font-size: 1.5rem;
+  --base-border-radius: .3rem;
+  --base-padding: 1rem;
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.joke {
+  width: 20rem;
+  font-size: var(--base-font-size);
+}
+
+.text {
+  width: var(--content-width);
+  border-radius: var(--base-border-radius);
+  padding: var(--base-padding);
+
+}
+
+.text:nth-child(odd) {
+  background-color: var(--green-color);
+  margin-right: auto;
+}
+
+.text:nth-child(even) {
+  background-color: var(--red-color);
+  margin-left: auto;
+}
+
+.button {
+  width: 100%;
+  font-size: var(--base-font-size);
+  border-radius: var(--base-border-radius);
+  background-color: var(--light-green-color);
+  padding: var(--base-padding);
+  margin: 1rem 0;
+  border: none;
+  cursor: pointer;
+}
